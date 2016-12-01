@@ -1,0 +1,101 @@
+.header{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.header .nav-bar{
+		color: #000;
+		text-align: center;
+		padding-top: 20px;
+}
+.header .nav-bar>li{
+	display: inline-block;
+	width: 160px;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 16px;
+	background: rgba(255,255,255,.5);
+	border-radius: 3px;
+	text-align: center;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+.header .nav-bar>li:last-child{
+	margin: 0;
+}
+		
+.header .nav-bar>li:hover,
+.header .nav-bar>li.active{
+	color: #4896F1;
+	background: rgba(255,255,255,0.7);
+	font-weight: bold;
+}
+.unslider,
+.unslider .banner,
+.unslider .banner ul,
+.unslider .banner ul li
+{
+	height: 100%;
+}
+.banner ul .intro{
+	background: url(../img/intro.jpg) no-repeat;
+}
+.banner ul .blog{
+	background: url(../img/blog.jpg) no-repeat;
+}
+.banner ul .gallery{
+	background: url(../img/gallery.jpg) no-repeat;
+}
+.banner ul .video{
+	background: url(../img/video.jpg) no-repeat;
+}
+.banner ul .about{
+	background: url(../img/about.jpg) no-repeat;
+}
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.footer ul{
+	margin-left: 20px;
+}
+.footer ul li{
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 26px;
+	color: #ddd;
+}
+.footer ul li a{
+	color: #ddd;
+}
+.footer ul li:hover,
+.footer ul li a:hover{
+	color: #eee;
+}
+.footer .code{
+	display: none;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 3px;
+    left: -16px;
+    top: -68px;
+}
+.footer .code .caret{
+	position: absolute;
+    bottom: -4px;
+    left: 33px;
+}
+.footer .code img{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #eee;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Captain</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <ul class="nav-bar">
+        	<li class="active" onclick="changeIndex(0, event)">INTRO</li>
+        	<li onclick="changeIndex(1,event)">BLOG</li>
+        	<li onclick="changeIndex(2,event)">GALLERY</li>
+        	<li onclick="changeIndex(3,event)">VIDEO</li>
+        	<li onclick="changeIndex(4,event)">ABOUT</li>
+        </ul>
+    </header>
+    <div class="banner">
+	    <ul>
+		    <li class="intro"></li>
+		    <li class="blog"></li>
+		    <li class="gallery"></li>
+		    <li class="video"></li>
+		    <li class="about"></li>
+	    </ul>
+	</div>
+    <footer class="footer">
+        <ul>
+            <li onmouseenter="showCode(event)" onmouseleave="hideCode(event)">
+                <a href="https://github.com/jianxu-captain" class="fa fa-github" target="_blank"></a>
+                <div class="code">
+                    <img src="img/github.png">
+                    <span class="caret"></span>
+                </div>
+            </li>
+            <li onmouseenter="showCode(event)" onmouseleave="hideCode(event)">
+                <a href="http://weibo.com/312990111?refer_flag=1001030101_&is_hot=1" class="fa fa-weibo" target="_blank"></a>
+                <div class="code">
+                    <img src="img/sina.jpg">
+                    <span class="caret"></span>
+                </div>
+            </li>
+            <li onmouseenter="showCode(event)" onmouseleave="hideCode(event)">
+                <i class="fa fa-weixin"></i>
+                <div class="code">
+                    <img src="img/wechat.jpg">
+                    <span class="caret"></span>
+                </div>
+            </li>
+            <li onmouseenter="showCode(event)" onmouseleave="hideCode(event)">
+                <i class="fa fa-qq"></i>
+                <div class="code">
+                    <img src="img/qq.jpg">
+                    <span class="caret"></span>
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/unslider-min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
