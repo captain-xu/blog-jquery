@@ -44,6 +44,9 @@
 {
 	height: 100%;
 }
+.content-wrap{
+    margin: 120px auto;
+}
 .banner ul .intro{
 	background: url(../img/bac_intro.jpg) no-repeat;
 }
@@ -106,4 +109,16 @@
 	width: 64px;
 	height: 64px;
 	border: 1px solid #eee;
+}
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    right: 12px;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-family: Microsoft Yahei;
+}
+.copyright a{
+	color: #fff;
 }
