@@ -43,6 +43,7 @@
 .unslider .banner ul li
 {
 	height: 100%;
+	position: relative;
 }
 .content-wrap{
     margin: 120px auto;
