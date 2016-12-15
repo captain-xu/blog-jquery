@@ -1,8 +1,24 @@
 $(document).ready(function() {
+	$(".dg").remove();
+	animation();
+});
+
+
+	function animation(){
+		setTimeout(function(){
+			$(".worldofwar span").fadeIn(300);
+		},2000)
+	};
+	$(".worldofwar span").on('click', function(event) {
+		$(".worldofwar").addClass('remove');
+	});
 	$('.banner').unslider({ nav: false, arrows: false });
-	changeIndex = function(num,dom){
+	function changeIndex(num,dom){
 		$('.banner').unslider('animate:' + num);
 		$(dom.target).addClass('active').siblings().removeClass('active');
+		if (num == 2) {
+			$(".photo-wrap").show();
+		}
 	};
 	$(".img img").on('click', function(event) {
 		event.preventDefault();
@@ -14,4 +30,3 @@ $(document).ready(function() {
 		event.preventDefault();
 		$(this).removeClass('active');
 	});
-});
