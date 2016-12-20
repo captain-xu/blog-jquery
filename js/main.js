@@ -16,6 +16,11 @@ $(document).ready(function() {
 	function changeIndex(num,dom){
 		$('.banner').unslider('animate:' + num);
 		$(dom.target).addClass('active').siblings().removeClass('active');
+		if (num == 1) {
+			$(".blog-container").addClass("active");
+		} else {
+			$(".blog-container").removeClass("active");
+		}
 		if (num == 2) {
 			$(".photo-wrap").show();
 		}
