@@ -77,20 +77,23 @@
 .content-wrap{
     margin: 120px auto 60px;
 }
+.banner ul > li {
+	background-size: 100% 100%;
+}
 .banner ul .intro{
-	background: url(../img/bac_intro.jpg) no-repeat;
+	background-image: url(../img/bac_intro.jpg);
 }
 .banner ul .blog{
-	background: url(../img/bac_blog.jpg) no-repeat;
+	background-image: url(../img/bac_blog.jpg);
 }
 .banner ul .gallery{
-	background: url(../img/bac_gallery.jpg) no-repeat;
+	background-image: url(../img/bac_gallery.jpg);
 }
 .banner ul .video{
-	background: url(../img/bac_video.jpg) no-repeat;
+	background-image: url(../img/bac_video.jpg);
 }
 .banner ul .about{
-	background: url(../img/bac_about.jpg) no-repeat;
+	background-image: url(../img/bac_about.jpg);
 }
 .footer{
 	width: 100%;
